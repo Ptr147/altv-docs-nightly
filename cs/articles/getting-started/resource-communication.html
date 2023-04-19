@@ -127,7 +127,7 @@
                                 <span class="small pull-right article mobile-hide" style="margin: 0;" data-noindex="">
                                     <ul class="subnav contribution">
                                             <li>
-                                                <a href="https://github.com/FabianTerhorst/coreclr-module/blob/master/docs/articles/getting-started/resource-communication.md/#L1">Improve this Doc</a>
+                                                <a href="https://github.com/Ptr147/coreclr-module/blob/master/docs/articles/getting-started/resource-communication.md/#L1">Improve this Doc</a>
                                             </li>
                                     </ul>
                                 </span>
@@ -171,7 +171,7 @@ Also any dictionary in dictionary, array in array, ect. endless depth types are 
 }
 </code></pre>
 <h2 id="import-data">Import data</h2>
-<p>Resources can import data that got exported from other resources. Most likely you will define the resource where you import from as <code>deps: [ myResource, myResource2 ]</code> in your <code>resource.cfg</code> to make sure the resource is already started when your resource starts.
+<p>Resources can import data that got exported from other resources. Most likely you will define the resource where you import from as <code>deps: [ myResource, myResource2 ]</code> in your <code>resource.toml</code> to make sure the resource is already started when your resource starts.
 You also have to define the resource name where you import data from.</p>
 <pre><code class="lang-cs">public class SampleResource : AsyncResource
 {
